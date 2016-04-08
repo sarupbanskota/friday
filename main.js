@@ -13,7 +13,7 @@ today = today.getDay();
 fridayScore = ((6 - dayScore[today]) / 6).toFixed(2);
 
 if(fridayScore == 1){
-  var fridayMarkup = "<img src='images/friday.jpg'></img>";
+  var fridayMarkup = "<img class='friday-banner' src='images/friday.jpg'></img>";
   container = document.getElementById('progressbar-container');
   container.innerHTML += fridayMarkup;
 } else{
